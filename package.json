@@ -1,0 +1,39 @@
+{
+  "name": "one-stop-creative-studio-recruitment",
+  "version": "1.0.0",
+  "description": "One-Stop Creative Studio Recruitment Website",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && firebase deploy"
+  },
+  "dependencies": {
+    "gsap": "^3.12.2",
+    "lucide-react": "^0.263.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.13",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "autoprefixer": "^10.4.21",
+    "firebase-tools": "^14.17.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "vite": "^7.1.7"
+  },
+  "keywords": [
+    "react",
+    "recruitment",
+    "creative-studio",
+    "gsap",
+    "tailwindcss",
+    "firebase"
+  ],
+  "author": "One-Stop Creative Studio",
+  "license": "MIT"
+}
