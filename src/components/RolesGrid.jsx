@@ -12,7 +12,7 @@ const RolesGrid = () => {
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Find Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-purple-600">Creative Role</span>
+            Find Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-teal-400">Creative Role</span>
           </h2>
           <p className="text-xl text-zinc-400 max-w-2xl mx-auto">
             Join our diverse team of creative professionals and help shape the future of digital storytelling.
