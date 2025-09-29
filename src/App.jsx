@@ -5,11 +5,13 @@ import RolesGrid from './components/RolesGrid';
 import WhyJoinSection from './components/WhyJoinSection';
 import TestimonialCarousel from './components/TestimonialCarousel';
 import SocialProofGrid from './components/SocialProofGrid';
-import ApplicationSection from './components/ApplicationForm';
+import ApplicationSection from './components/ApplyNowSection';
 import Footer from './components/Footer';
+import ApplicationForm from './components/ApplicationForm';
+
 
 const App = () => {
-  useGsapAnimation();
+  // ✅ Run GSAP animations
 
   return (
     <div className="min-h-screen">
@@ -17,8 +19,8 @@ const App = () => {
       <RolesGrid />
       <WhyJoinSection />
       <TestimonialCarousel />
-      <SocialProofGrid />
       <ApplicationSection />
+      <ApplicationForm />
       <Footer />
     </div>
   );

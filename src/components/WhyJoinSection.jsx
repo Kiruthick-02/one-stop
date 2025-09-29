@@ -26,7 +26,7 @@ const WhyJoinSection = () => {
   ];
 
   return (
-    <section className="why-join-section py-20 bg-gray-900 text-white">
+    <section className="why-join-section py-20 bg-black text-white">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
@@ -41,8 +41,12 @@ const WhyJoinSection = () => {
           {benefits.map((benefit, index) => {
             const IconComponent = benefit.icon;
             return (
-              <div key={index} className="why-join-item text-center">
-                <div className="flex items-center justify-center w-20 h-20 bg-gradient-to-r from-yellow-400 to-teal-500 rounded-2xl mb-6 mx-auto">
+              <div
+                key={index}
+                className="why-join-item border border-white rounded-2xl p-8 flex flex-col items-center text-center
+                  hover:shadow-lg transition-shadow duration-300"
+              >
+                <div className="flex items-center justify-center w-20 h-20 bg-gradient-to-r from-yellow-400 to-teal-500 rounded-2xl mb-6">
                   <IconComponent className="w-10 h-10 text-gray-900" />
                 </div>
                 <h3 className="text-xl font-bold mb-4">{benefit.title}</h3>
